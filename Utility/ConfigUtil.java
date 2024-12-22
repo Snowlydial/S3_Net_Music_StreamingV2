@@ -17,16 +17,17 @@ public class ConfigUtil {
             if (parser.nextToken() == JsonToken.START_OBJECT) {
                 while (parser.nextToken() != JsonToken.END_OBJECT) {
                     String fieldName = parser.getCurrentName();
-                    parser.nextToken(); // Move to value
+                    parser.nextToken();
                     switch (fieldName) {
                         case "serverAddress":
+                        case "musicFolder":
+                        case "JDBC_URL":
+                        case "USERNAME":
+                        case "PASSWORD":
                             config.put(fieldName, parser.getText());
                             break;
                         case "port":
                             config.put(fieldName, parser.getIntValue());
-                            break;
-                        case "musicFolder":
-                            config.put(fieldName, parser.getText());
                             break;
                         default:
                             System.out.println("Unknown field: " + fieldName);

@@ -1,5 +1,5 @@
 Deja implemente:
-- recherche
+- recherche chanson sur DB
 - play/stop
 - pause/resume
 - playlists
@@ -7,13 +7,10 @@ Deja implemente:
 - create/DL playlist
 - choose song ADD/DEL to specific playlist
 - play another playlist
-
-
-To Add:
 - Multiple users (use thread)
-
 - Make consecutive play (start next auto)
 - Loop (?)
+
+To Add:
 - Rand play
 
-	

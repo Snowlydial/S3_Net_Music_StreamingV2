@@ -650,7 +650,7 @@ public class MusicClientFX extends Application {
                 });
 
                 // System.out.println(elapsedMillis);
-                if (elapsedMillis >= (songDuration * 1000)-1000 && autoNextEnabled) {
+                if (elapsedMillis >= (songDuration * 1000)-1180 && autoNextEnabled) {
                     if (loopEnabled || isLastSong() == 1) { // Auto-next logic
                         nextBlock();
                     } else if (isLastSong() == 0) {
