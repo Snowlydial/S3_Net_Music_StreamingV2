@@ -1,0 +1,14 @@
+=> Compilation: javac -cp "Lib/ojdbc6.jar:Lib/jlayer101.jar:Lib/jackson.jar:." -d . *.java
+
+=> Exec:
+java -cp "Lib/ojdbc6.jar:Lib/jlayer101.jar:Lib/jackson.jar:." MusicServer
+java -cp "Lib/ojdbc6.jar:Lib/jlayer101.jar:Lib/jackson.jar:." MusicClient
+
+x---------------------------x---------------------------x---------------------------x---------------------------x
+
+=> New Compilation: javac -cp "Lib/mp3agic.jar:Lib/ojdbc6.jar:Lib/jlayer101.jar:Lib/jackson.jar:Lib/javaFX/*:." -d . *.java
+
+=> New Exec:
+java --module-path Lib/javaFX --add-modules javafx.controls,javafx.fxml -cp "Lib/mp3agic.jar:Lib/ojdbc6.jar:Lib/jlayer101.jar:Lib/jackson.jar:." MusicServerFX
+java --module-path Lib/javaFX --add-modules javafx.controls,javafx.fxml -cp "Lib/mp3agic.jar:Lib/ojdbc6.jar:Lib/jlayer101.jar:Lib/jackson.jar:." MusicClientFX
+

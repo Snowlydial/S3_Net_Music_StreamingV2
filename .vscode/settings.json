@@ -1,0 +1,19 @@
+{
+    "java.project.sourcePaths": [
+        "."
+    ],
+    "java.project.referencedLibraries": [
+        "Lib/mp3agic.jar",
+        "Lib/javaFX/javafx.media.jar",
+        "Lib/ojdbc6.jar",
+        "Lib/jlayer101.jar",
+        "Lib/javaFX/javafx.swing.jar",
+        "Lib/javaFX/javafx.base.jar",
+        "Lib/javaFX/javafx.graphics.jar",
+        "Lib/javaFX/javafx.controls.jar",
+        "Lib/javaFX/javafx.web.jar",
+        "Lib/javaFX/javafx.fxml.jar",
+        "Lib/javaFX/javafx-swt.jar",
+        "Lib/jackson.jar"
+    ]
+}

@@ -1,0 +1,19 @@
+Deja implemente:
+- recherche
+- play/stop
+- pause/resume
+- playlists
+- next/previous
+- create/DL playlist
+- choose song ADD/DEL to specific playlist
+- play another playlist
+
+
+To Add:
+- Multiple users (use thread)
+
+- Make consecutive play (start next auto)
+- Loop (?)
+- Rand play
+
+	
